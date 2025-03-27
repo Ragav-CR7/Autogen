@@ -1,11 +1,11 @@
 model_config:
-   model: "gemma3:1b"
+   model: "llama3.2:1b"
    base_url: "http://127.0.0.1:11434/v1/"
    api_key: "key"
    model_info:
      vision: true
-     function_calling: false
+     function_calling: true
      json_output: false
-     family: "gemma"
+     family: "llama"
    seed: 42
    temperature: 0
