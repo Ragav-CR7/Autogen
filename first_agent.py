@@ -31,6 +31,4 @@ async def assistant_run() -> None:
     print(response.inner_messages)
     print(response.chat_message)
 
-
-# Use asyncio.run(assistant_run()) when running in a script.
 asyncio.run(assistant_run())
